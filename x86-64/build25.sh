@@ -52,6 +52,10 @@ PACKAGES="$PACKAGES nano-full"
 PACKAGES="$PACKAGES iftop"
 PACKAGES="$PACKAGES ifstat"
 PACKAGES="$PACKAGES bind-dig"
+PACKAGES="$PACKAGES iperf3"
+PACKAGES="$PACKAGES qemu-ga"
+PACKAGES="$PACKAGES snmpd"
+PACKAGES="$PACKAGES unzip"
 PACKAGES="$PACKAGES luci-i18n-diskman-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-firewall-zh-cn"
 PACKAGES="$PACKAGES luci-theme-argon"
@@ -59,7 +63,9 @@ PACKAGES="$PACKAGES luci-app-argon-config"
 PACKAGES="$PACKAGES luci-i18n-argon-config-zh-cn"
 PACKAGES="$PACKAGES luci-app-homeproxy"
 PACKAGES="$PACKAGES luci-app-zerotier"
-
+PACKAGES="$PACKAGES luci-i18n-zerotier-zh"
+PACKAGES="$PACKAGES luci-proto-wireguard"
+PACKAGES="$PACKAGES luci-app-vlmcsd“
 #25.12
 PACKAGES="$PACKAGES luci-i18n-package-manager-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-ttyd-zh-cn"
@@ -126,3 +132,4 @@ if [ $? -ne 0 ]; then
 fi
 
 echo "$(date '+%Y-%m-%d %H:%M:%S') - Build completed successfully."
+
