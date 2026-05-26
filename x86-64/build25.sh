@@ -65,7 +65,7 @@ PACKAGES="$PACKAGES luci-app-homeproxy"
 PACKAGES="$PACKAGES luci-app-zerotier"
 PACKAGES="$PACKAGES luci-i18n-zerotier-zh"
 PACKAGES="$PACKAGES luci-proto-wireguard"
-PACKAGES="$PACKAGES luci-app-vlmcsd“
+PACKAGES="$PACKAGES luci-app-vlmcsd"
 #25.12
 PACKAGES="$PACKAGES luci-i18n-package-manager-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-ttyd-zh-cn"
