@@ -57,6 +57,7 @@ PACKAGES="$PACKAGES qemu-ga"
 PACKAGES="$PACKAGES snmpd"
 PACKAGES="$PACKAGES unzip"
 PACKAGES="$PACKAGES zerotier"
+
 PACKAGES="$PACKAGES luci-i18n-diskman-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-firewall-zh-cn"
 PACKAGES="$PACKAGES luci-theme-argon"
@@ -66,9 +67,10 @@ PACKAGES="$PACKAGES luci-i18n-argon-config-zh-cn"
 PACKAGES="$PACKAGES luci-app-homeproxy"
 PACKAGES="$PACKAGES luci-i18n-homeproxy-zh-cn"
 
-PACKAGES="$PACKAGES luci-proto-wireguard"
 PACKAGES="$PACKAGES luci-app-vlmcsd"
+PACKAGES="$PACKAGES luci-i18n-vlmcsd-zh-cn"
 
+PACKAGES="$PACKAGES luci-proto-wireguard"
 PACKAGES="$PACKAGES luci-app-zerotier"
 PACKAGES="$PACKAGES luci-i18n-zerotier-zh-cn"
 #25.12
