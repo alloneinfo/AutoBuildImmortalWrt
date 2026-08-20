@@ -46,7 +46,17 @@ echo "查看repositories信息——————"
 cat repositories
 # 定义所需安装的包列表 下列插件你都可以自行删减
 PACKAGES=""
+
 PACKAGES="$PACKAGES curl"
+PACKAGES="$PACKAGES htop"
+PACKAGES="$PACKAGES nano-full"
+PACKAGES="$PACKAGES iftop"
+PACKAGES="$PACKAGES ifstat"
+PACKAGES="$PACKAGES bind-dig"
+PACKAGES="$PACKAGES iperf3"
+PACKAGES="$PACKAGES snmpd"
+PACKAGES="$PACKAGES unzip"
+
 PACKAGES="$PACKAGES openssh-sftp-server"
 PACKAGES="$PACKAGES luci-i18n-diskman-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-package-manager-zh-cn"
@@ -54,7 +64,7 @@ PACKAGES="$PACKAGES luci-i18n-firewall-zh-cn"
 PACKAGES="$PACKAGES luci-theme-argon"
 PACKAGES="$PACKAGES luci-app-argon-config"
 PACKAGES="$PACKAGES luci-i18n-argon-config-zh-cn"
-PACKAGES="$PACKAGES luci-i18n-ttyd-zh-cn"
+
 # 判断是否需要编译 Docker 插件
 if [ "$INCLUDE_DOCKER" = "yes" ]; then
     PACKAGES="$PACKAGES luci-i18n-dockerman-zh-cn"

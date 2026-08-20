@@ -63,17 +63,8 @@ PACKAGES="$PACKAGES luci-theme-argon"
 PACKAGES="$PACKAGES luci-app-argon-config"
 PACKAGES="$PACKAGES luci-i18n-argon-config-zh-cn"
 
-#PACKAGES="$PACKAGES luci-app-vlmcsd"
-#PACKAGES="$PACKAGES luci-i18n-vlmcsd-zh-cn"
-
-PACKAGES="$PACKAGES luci-proto-wireguard"
-#PACKAGES="$PACKAGES zerotier"
-#PACKAGES="$PACKAGES luci-app-zerotier"
-#PACKAGES="$PACKAGES luci-i18n-zerotier-zh-cn"
-
 #25.12
 PACKAGES="$PACKAGES luci-i18n-package-manager-zh-cn"
-PACKAGES="$PACKAGES luci-i18n-ttyd-zh-cn"
 PACKAGES="$PACKAGES openssh-sftp-server"
 
 # 文件管理器
